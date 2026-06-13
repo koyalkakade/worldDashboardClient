@@ -1,0 +1,24 @@
+.header{
+  align-items:center;
+  padding:10px;
+  border-radius:14px;
+  background: linear-gradient(90deg,#0f172a 0%, #1f3b6f 50%, #2b8cff 100%);
+  color:#fff;
+  box-shadow: var(--shadow-strong);
+}
+
+.center{ text-align: center; }
+
+.left{ display:flex; flex-direction:column; gap:6px; }
+.small{ font-size:0.95rem; color: rgba(255,255,255,0.9); }
+.title{ margin:0;  letter-spacing:0.4px; }
+
+.meta{ display:flex; gap:12px; align-items:center; }
+.kpi{
+  background: rgba(255,255,255,0.06);
+  padding:8px 12px;
+  border-radius:10px;
+  font-weight:600;
+  color:#fff;
+}
+.kpiValue{ margin-left:6px; font-weight:700; }
